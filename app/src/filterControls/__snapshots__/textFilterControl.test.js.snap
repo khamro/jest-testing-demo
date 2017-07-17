@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Allow the developer to make sure his code changes did not change the dom tree of textFilterControl renders text filter control and make sure its dom tree did not change 1`] = `
+<div
+  className="text-filter-control test filter"
+>
+  <div
+    className="label"
+  >
+    amro
+  </div>
+  <input
+    className="test-polina"
+    onChange={[Function]}
+    placeholder="test"
+    type="text"
+    value="textxt"
+  />
+</div>
+`;
