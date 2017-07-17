@@ -1,0 +1,58 @@
+{
+  "name": "dop-filter",
+  "version": "2.1.7",
+  "description": "",
+  "main": "dist/dop-filter.js",
+  "scripts": {
+    "build": "webpack --bail",
+    "start_dev": "node webpack.dev.server.js",
+    "to_nexus": "ossui-builder publish",
+    "test": "jest --watch",
+    "updateSnap": "jest --updateSnapshot"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "react": "^15.3.1",
+    "react-datepicker": "^0.46.0",
+    "react-dom": "^15.3.1",
+    "ossui-components-lib": "1.0.16",
+    "velocity-react": "^1.1.11"
+  },
+  "jest": {
+    "collectCoverage": true
+  },
+  "devDependencies": {
+    "babel-core": "^6.2.4",
+    "babel-jest": "^20.0.3",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-polyfill": "^6.5.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "babel-runtime": "^6.6.1",
+    "babelify": "^7.2.0",
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "^0.23.1",
+    "enzyme": "^2.9.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "file-loader": "^0.8.5",
+    "jest": "^20.0.4",
+    "node-http-proxy": "^0.2.3",
+    "node-sass": "^3.7.0",
+    "ossui-builder": "^1.1.6",
+    "path": "^0.12.7",
+    "react-addons-test-utils": "^15.6.0",
+    "react-hot-loader": "3.0.0-beta.6",
+    "react-test-renderer": "^15.6.1",
+    "sass-loader": "^3.2.0",
+    "source-map-loader": "^0.1.5",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0",
+    "webpack-spritesmith": "0.2.3"
+  }
+}
